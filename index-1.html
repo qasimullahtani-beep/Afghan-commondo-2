@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ps" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="theme-color" content="#101820">
+  <title>افغان کمانډو ۲</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="game-shell">
+    <header><strong>افغان کمانډو ۲</strong><span>نسخه: لومړنۍ ازموینه</span></header>
+    <section id="hud">
+      <span>نمرې: <b id="score">0</b></span>
+      <span>ژوند: <b id="health">3</b></span>
+      <span id="status">چمتو</span>
+    </section>
+    <canvas id="game" aria-label="د افغان کمانډو لوبه"></canvas>
+    <section class="controls">
+      <div class="move">
+        <button data-key="up">▲</button>
+        <div><button data-key="left">◀</button><button data-key="down">▼</button><button data-key="right">▶</button></div>
+      </div>
+      <button id="fire" class="fire">ډزې</button>
+    </section>
+    <section class="actions">
+      <button id="start">لوبه پیل / بیا پیل</button>
+      <span>د موبایل لپاره: غشي وکاروه او د ډزو تڼۍ کېکاږه</span>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
